@@ -1,0 +1,78 @@
+*{
+	padding: 0;
+	margin:0;
+	font-family: 'calibri','Arial',sans-serif;
+}
+#infor td{
+	padding-left: 10px;
+	padding-right: 10px;
+	border-bottom: 1px solid #000;
+	text-transform: uppercase;
+}
+#infor tr:nth-child(even){/*não esta funcionando corretamente*/
+	background-color: #068;
+	color:#fff;
+}
+.ola:hover{
+	background-color: #4453;
+	color: #068;
+}
+#infor th{
+	text-transform: uppercase;
+	padding-right: 200px;
+	padding-left: 200px;
+}
+.sem{
+	width: 400px
+}
+div:nth-child(2){
+	margin-left: 100px;
+	margin-top: 20px;
+	font-size: 20px;
+}
+div:nth-child(1){
+	margin-left: 100px;
+	margin-top: 20px;
+}
+.botao{
+	border:none;
+	background-color: #068;
+	border-radius: 10px;
+	color: #fff;
+	padding: 10px;
+	width: 200px;
+	font-size: 15px;
+}
+.botao:hover{
+	opacity: 0.5;
+	cursor: pointer;
+}
+div input[name='placa']{
+	width: 500px;
+	margin-left: 38px;
+}
+div input[name='modelo']{
+	width: 500px;
+	margin-left: 23px;
+}
+div input[name='ano']{
+	margin-left: 48px;
+}
+.formata{
+	border-radius: 10px;
+	padding-left: 10px;
+	font-size: 20px;
+	margin-top: 5px;	
+}
+.formata:focus{
+	background-color: #068;
+	color:#fff;
+}
+.titulo{
+	width: 100%;
+	background-color: #068;
+	color: #fff;
+	padding: 20px;
+	text-transform: uppercase;
+	box-shadow: 10px 10px 10px #000;
+}

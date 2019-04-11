@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html leng='pt-br'>
+<head>
+	<meta charset="utf-8">
+	<meta name='acthor' content="Welder Mileu">
+	<title>Formulario JS</title>
+	<link rel="stylesheet" type="text/css" href="css/stilo.css">
+	<script type="text/javascript" src='js/javas.js'></script>
+</head>
+	<body onload="contar()">
+		<!-- <p id="opa"></p> -->
+		<div>
+			<h1 class="titulo">Sistema de Estacionamento</h1><br><br>
+			<label>Placa</label>
+			<input type="text" name="placa" id="placa" placeholder="Placa" class="formata"><br>
+			<label>Modelo</label>
+			<input type="text" name="modelo" id="modelo" placeholder="Modelo" class="formata"><br>
+			<label>Ano</label>
+			<input type="number" name="ano" id="ano" class="formata"><br><br>
+			<button onclick="inserir()" class="botao">Enviar</button><br><br><hr>
+		</div>
+		<div>
+ 			<table id="infor" style="">
+				<th colspan="5">Informações dos Clientes</th>
+				<tr>
+					<td class="sem">PLACA</td>
+					<td>MODELO</td>
+					<td>ANO</td>
+					<td>ENTRADA</td>
+					<td>TOTAL</td>
+				</tr>
+			</table>
+		</div>
+	</body>
+</html>
